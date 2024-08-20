@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Battle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="player-container">
+            <h2>Player</h2>
+            <img id="player-ship" src="https://images.squarespace-cdn.com/content/v1/5cc3d1b051f4d40415789cc2/1629677046167-90HNDSWOLBXE93FHM7XX/playmobil-enterprise-star-trek.png" alt="Player Ship">
+            <p id="player-hull">Hull: 20</p>
+        </div>
+        <div class="aliens-container">
+            <h2>Aliens</h2>
+            <div id="alien-ships">
+            </div>
+        </div>
+    </div>
+    <div class="controls-container">
+        <button id="attack-btn">Attack</button>
+        <button id="retreat-btn">Retreat</button>
+    </div>
+    <div id="game-status" class="game-status"></div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
